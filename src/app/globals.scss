@@ -1,8 +1,19 @@
+@import '@fortawesome/fontawesome-free/css/all.min.css';
+
+$background-color: #f4f4f4;
+$text-color: #333;
+$hero-bg-color: #282c34;
+$hero-text-color: white;
+$hover-color: #61dafb;
+$padding: 50px;
+$font-family: 'Arial', sans-serif;
+
+
 body {
   margin: 0;
-  font-family: 'Arial', sans-serif;
-  background-color: #f4f4f4;
-  color: #333;
+  font-family: $font-family;
+  background-color: $background-color;
+  color: $text-color;
 }
 
 .hero-container {
@@ -10,13 +21,12 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  padding: 50px;
-  background-color: #282c34;
-  color: white;
+  padding: $padding;
+  background-color: $hero-bg-color;
+  color: $hero-text-color;
   text-align: center;
 
   .profile-img {
-    // border-radius: 50%;
     width: 10%;
     height: 10%;
   }
@@ -26,12 +36,12 @@ body {
 
     a {
       margin: 0 10px;
-      color: white;
+      color: $hero-text-color;
       font-size: 24px;
       transition: color 0.3s;
 
       &:hover {
-        color: #61dafb;
+        color: $hover-color;
       }
     }
   }
