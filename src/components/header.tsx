@@ -4,6 +4,7 @@ import Link from 'next/link';
 import { useState } from 'react';
 
 const Header = () => {
+
     // États pour chaque lien
     const [isHomeHovered, setIsHomeHovered] = useState(false);
     const [isAccueilHovered, setIsAccueilHovered] = useState(false);

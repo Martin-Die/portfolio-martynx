@@ -19,7 +19,7 @@ const PageNotFound = () => {
         alt="Image not found"
         style={{ width: '250px', marginBottom: '30px' }}
       />
-      <p>How did you get there</p>
+      <p>This website is still WIP</p>
       <a onClick={handleGoBack}>You should go back</a>
     </div>
   );

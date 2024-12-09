@@ -27,7 +27,7 @@ $animation-duration: 2s;
     p,
     a,
     img {
-        animation: fadeIn $animation-duration ease-in-out;
+        // animation: fadeIn $animation-duration ease-in-out;
     }
 
     h1 {
@@ -56,11 +56,6 @@ $animation-duration: 2s;
             background-color: $primary-color;
             color: white;
         }
-    }
-
-    img {
-        // If you want the bounce effect on the image, uncomment the line below
-        // animation: fadeIn $animation-duration ease-in-out, bounce $animation-duration ease-in-out 2s infinite;
     }
 }
 
