@@ -1,0 +1,9 @@
+{
+    "HomePage": {
+        "title": "Bonjour, je suis MartYnX",
+        "description": "Je suis un développeur furry français. Je me spécialise dans la créations d'outils basé sur l'IA et bien plus."
+    },
+    "NotFoundPage": {
+        "title": "404"
+    }
+}

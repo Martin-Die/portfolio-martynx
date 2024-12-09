@@ -2,9 +2,11 @@
 
 import Image from 'next/image';
 import { useState } from "react";
+import { useTranslations } from 'next-intl';
 
 const Presentation = () => {
 
+    const t = useTranslations('HomePage');
     const [hovered, setHovered] = useState(false);
 
     return (
@@ -19,10 +21,8 @@ const Presentation = () => {
             />
 
             <div className="hero-text">
-                <h1>Bonjour, je suis MartYnX</h1>
-                <p>
-                    Je suis un développeur furry français. Je me spécialise dans la créations d'outils basé sur l'IA et bien plus.
-                </p>
+                <h1>{t('title')}</h1>
+                <p>{t('description')}</p>
                 <div className="social-icons">
                     <a href="https://x.com/DieMartin" aria-label="Twitter" target="_blank" rel="noopener noreferrer">
                         <i className="fa-brands fa-twitter"></i>

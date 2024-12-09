@@ -34,7 +34,8 @@
       "**/*.tsx",
       ".next/types/**/*.ts",
       "src/pages/_app.jsx",
-      "src/app/layout.jsx"
+      "src/app/[locale]/layout.tsx",
+      "src/app/not-found.tsx"
     ],
     "exclude": [
       "node_modules"
