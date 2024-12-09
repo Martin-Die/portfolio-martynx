@@ -1,9 +1,8 @@
 @import '@fortawesome/fontawesome-free/css/all.min.css';
 
 $background-color: #f4f4f4;
-$text-color: #333;
-$hero-bg-color: #282c34;
-$hero-text-color: white;
+$bg-color: #282c34;
+$text-color: white;
 $hover-color: #61dafb;
 $padding: 50px;
 $font-family: 'Arial', sans-serif;
@@ -23,8 +22,8 @@ body {
   justify-content: center;
   flex-direction: column;
   padding: $padding;
-  background-color: $hero-bg-color;
-  color: $hero-text-color;
+  background-color: $bg-color;
+  color: $text-color;
   text-align: center;
 
   .presentation-img {
@@ -37,7 +36,7 @@ body {
 
     a {
       margin: 0 10px;
-      color: $hero-text-color;
+      color: $text-color;
       font-size: 24px;
       transition: color 0.3s;
 
