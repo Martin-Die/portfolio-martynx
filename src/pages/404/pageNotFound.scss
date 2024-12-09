@@ -1,0 +1,95 @@
+// Variables
+$primary-color: #ff6347;
+$background-color: #f4f4f9;
+$text-color: #333;
+$secondary-text-color: #555;
+$font-family: 'Arial', sans-serif;
+$font-size-large: 5rem;
+$font-size-medium: 1.5rem;
+$font-size-small: 1.25rem;
+$button-padding: 10px 20px;
+$border-radius: 5px;
+$transition-duration: 0.3s;
+$animation-duration: 2s;
+
+.page-not-found {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: $background-color;
+    color: $text-color;
+    font-family: $font-family;
+    text-align: center;
+
+    h1,
+    p,
+    a,
+    img {
+        animation: fadeIn $animation-duration ease-in-out;
+    }
+
+    h1 {
+        font-size: $font-size-large;
+        color: $primary-color;
+        margin: 0;
+    }
+
+    p {
+        font-size: $font-size-medium;
+        color: $secondary-text-color;
+        margin: 10px 0;
+    }
+
+    a {
+        font-size: $font-size-small;
+        color: $primary-color;
+        text-decoration: none;
+        margin-top: 20px;
+        padding: $button-padding;
+        border: 2px solid $primary-color;
+        border-radius: $border-radius;
+        transition: background-color $transition-duration, color $transition-duration;
+
+        &:hover {
+            background-color: $primary-color;
+            color: white;
+        }
+    }
+
+    img {
+        // If you want the bounce effect on the image, uncomment the line below
+        // animation: fadeIn $animation-duration ease-in-out, bounce $animation-duration ease-in-out 2s infinite;
+    }
+}
+
+// Keyframe animations
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes bounce {
+
+    0%,
+    20%,
+    50%,
+    80%,
+    100% {
+        transform: translateY(0);
+    }
+
+    40% {
+        transform: translateY(-10px);
+    }
+
+    60% {
+        transform: translateY(-5px);
+    }
+}
