@@ -7,6 +7,7 @@ $hero-text-color: white;
 $hover-color: #61dafb;
 $padding: 50px;
 $font-family: 'Arial', sans-serif;
+$image-size: 10%;
 
 
 body {
@@ -16,7 +17,7 @@ body {
   color: $text-color;
 }
 
-.hero-container {
+.container {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -26,9 +27,9 @@ body {
   color: $hero-text-color;
   text-align: center;
 
-  .profile-img {
-    width: 10%;
-    height: 10%;
+  .presentation-img {
+    width: $image-size;
+    height: $image-size;
   }
 
   .social-icons {

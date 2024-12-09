@@ -8,8 +8,16 @@ const Presentation = () => {
     const [hovered, setHovered] = useState(false);
 
     return (
-        <div className="hero-container">
-            <Image src='/images/niku.png' className="profile-img" width={300} height={300} alt="image temporaire" priority={true} />
+        <div className="container">
+            <Image
+                src='/images/niku.png'
+                className="presentation-img"
+                width={300} height={300}
+                alt="niku"
+                priority={true}
+                sizes="(max-width: 768px) 100vw, 50vw"
+            />
+
             <div className="hero-text">
                 <h1>Bonjour, je suis MartYnX</h1>
                 <p>
