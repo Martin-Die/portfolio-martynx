@@ -1,8 +1,8 @@
-import createNextIntlPlugin from 'next-intl/plugin';
+// @ts-check
 
-const withNextIntl = createNextIntlPlugin();
+const withNextIntl = require('next-intl/plugin')();
 
 /** @type {import('next').NextConfig} */
-const nextConfig = {};
+const config = {};
 
-export default withNextIntl(nextConfig);
+module.exports = withNextIntl(config);

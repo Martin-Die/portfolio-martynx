@@ -7,8 +7,8 @@ import { routing } from '@/i18n/routing';
 
 export default function GlobalNotFound() {
     return (
-        <>
+        <div>
             <NotFoundPage />
-        </>
+        </div>
     );
 }
