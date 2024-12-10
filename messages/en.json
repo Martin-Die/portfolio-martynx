@@ -2,5 +2,10 @@
     "HomePage": {
         "title": "Hello, I'm MartYnX",
         "description": "I'm a French furry developer. I specialize in creating AI-based tools and more."
+    },
+    "NotFoundPage": {
+        "title": "Page not found",
+        "description": "The website is still under development, so it is still incomplete",
+        "button-go-back": "You can go back"
     }
 }

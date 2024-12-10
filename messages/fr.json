@@ -4,6 +4,8 @@
         "description": "Je suis un développeur furry français. Je me spécialise dans la créations d'outils basé sur l'IA et bien plus."
     },
     "NotFoundPage": {
-        "title": "404"
+        "title": "Page introuvable",
+        "description": "Le site web est encore en développement, il est donc encore incomplet",
+        "button-go-back": "Vous pouvez revenir en arrière"
     }
 }
