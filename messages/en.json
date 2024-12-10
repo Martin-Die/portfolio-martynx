@@ -6,6 +6,7 @@
     "NotFoundPage": {
         "title": "Page not found",
         "description": "The website is still under development, so it is still incomplete",
-        "button-go-back": "You can go back"
+        "button-go-back": "You can go back",
+        "button-go-home": "Or go to menu"
     }
 }

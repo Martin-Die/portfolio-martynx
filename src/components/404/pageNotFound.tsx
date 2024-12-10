@@ -4,6 +4,7 @@ import React from 'react';
 import { useRouter } from 'next/navigation';
 import './pageNotFound.scss';
 import { useTranslations } from 'next-intl';
+import Link from 'next/link'
 
 const PageNotFound = () => {
 
@@ -23,7 +24,11 @@ const PageNotFound = () => {
         style={{ width: '250px', marginBottom: '30px' }}
       />
       <p>{t('description')}</p>
-      <a onClick={handleGoBack}>{t('button-go-back')}</a>
+      <div className="button-container">
+        <a onClick={handleGoBack}>{t('button-go-back')}</a>
+        <Link href='/'>{t('button-go-home')}</Link>
+        <Link href='/7'>???????</Link>
+      </div>
     </div>
   );
 };

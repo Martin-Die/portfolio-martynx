@@ -6,6 +6,7 @@
     "NotFoundPage": {
         "title": "Page introuvable",
         "description": "Le site web est encore en développement, il est donc encore incomplet",
-        "button-go-back": "Vous pouvez revenir en arrière"
+        "button-go-back": "Vous pouvez revenir en arrière",
+        "button-go-home": "Ou aller a l'accueil"
     }
 }
