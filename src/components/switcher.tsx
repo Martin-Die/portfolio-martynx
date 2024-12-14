@@ -1,13 +1,11 @@
 'use client'
 
 import { useRouter } from 'next/navigation';
-import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
 
 const LanguageSwitcher = () => {
     const router = useRouter();
-    const t = useTranslations('LanguageSwitcher');
-    const [selectedLanguage, setSelectedLanguage] = useState('fr');
+    const [selectedLanguage, setSelectedLanguage] = useState('en');
 
     useEffect(() => {
         // Récupérer la langue actuelle à partir de l'URL
