@@ -1,4 +1,5 @@
 import React, { useEffect, useState, useRef } from 'react';
+import './eyes.scss';
 
 interface Eye {
     x: number;

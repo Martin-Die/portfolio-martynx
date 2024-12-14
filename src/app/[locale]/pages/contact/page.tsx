@@ -1,6 +1,6 @@
 'use client'
 
-import Eyes from '@/components/eyes';
+import Eyes from '@/app/[locale]/pages/7/eyes';
 
 const Seven = () => {
     return (

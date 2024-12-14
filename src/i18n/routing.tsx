@@ -6,10 +6,20 @@ export const routing = defineRouting({
     defaultLocale: 'en',
     pathnames: {
         '/': '/',
-        '/pathnames': {
-            en: '/pathnames',
-            fr: '/pfadnamen'
-        }
+        '/pages/about': {
+            en: '/about',
+            fr: '/a-propos',
+        },
+        '/pages/contact': '/contact',
+        '/pages/gallery': {
+            en: '/gallery',
+            fr: '/gallerie',
+        },
+        '/pages/presentation': {
+            en: '/presentation',
+            fr: '/présentation',
+        },
+        '/pages/7': '/7',
     }
 });
 

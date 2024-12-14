@@ -68,6 +68,13 @@ const Header = () => {
                                 Contact
                             </Link>
                         </li>
+                        <li style={{ margin: '0 15px' }}>
+                            <Link
+                                href="/7"
+                            >
+                                Page 7
+                            </Link>
+                        </li>
                     </ul>
                 </nav>
             </div>
