@@ -2,6 +2,7 @@
 
 import Link from 'next/link';
 import { useState } from 'react';
+import LanguageSwitcher from './switcher';
 
 const Header = () => {
 
@@ -69,11 +70,7 @@ const Header = () => {
                             </Link>
                         </li>
                         <li style={{ margin: '0 15px' }}>
-                            <Link
-                                href="/7"
-                            >
-                                Page 7
-                            </Link>
+                            <LanguageSwitcher />
                         </li>
                     </ul>
                 </nav>
